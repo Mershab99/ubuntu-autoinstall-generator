@@ -1,5 +1,5 @@
 *.iso
-user-data.yaml
+user-data.yml
 **.key**
 **.pem**
 **.pub**
