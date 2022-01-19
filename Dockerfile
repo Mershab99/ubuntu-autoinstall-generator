@@ -7,4 +7,4 @@ WORKDIR /app
 COPY . /app/
 
 RUN ["chmod", "+x", "./ubuntu-autoinstall-generator.sh"]
-CMD ["./ubuntu-autoinstall-generator.sh", "-a", "-k", "-u", "data/user-data.yml", "-s", "iso/ubuntu_base.iso", "-d", "finished/ubuntu_finished.iso"]
+CMD ["./ubuntu-autoinstall-generator.sh", "-a", "-k", "-u", "data/user-data.yml", "-s", "data/ubuntu_base.iso", "-d", "finished/ubuntu_finished.iso"]
